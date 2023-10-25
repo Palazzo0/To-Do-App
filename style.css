@@ -72,14 +72,15 @@ ul li {
 ul li::before {
   content: "";
   position: absolute;
-  height: 26px;
-  width: 26px;
+  height: 18px;
+  width: 18px;
   border-radius: 50%;
   background: white;
+  box-shadow: 1px 1px 2px black;
   background-size: cover;
   background-position: center;
   top: 12px;
-  left: 8px;
+  left: 20px;
 }
 
 ul li.checked {
