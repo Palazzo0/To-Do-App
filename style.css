@@ -75,7 +75,7 @@ ul li::before {
   height: 26px;
   width: 26px;
   border-radius: 50%;
-  background-image: url(img/IMG-20210801-WA0006.jpg);
+  background: white;
   background-size: cover;
   background-position: center;
   top: 12px;
@@ -88,7 +88,7 @@ ul li.checked {
 }
 
 ul li.checked::before {
-  background-image: url(img/Vikto\ 20220509_001843.jpg);
+  background-image: url(./img/check-img.png);
 }
 
 ul li span {
